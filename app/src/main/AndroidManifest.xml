@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.PetCare"
+        tools:targetApi="31">
+        <activity
+            android:name=".UserSelectionActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.home.BookedPets"
+            android:exported="false" />
+        <activity
+            android:name=".ui.home.ViewBookings"
+            android:exported="false" />
+        <activity
+            android:name=".ui.home.PostPet"
+            android:exported="false" />
+        <activity
+            android:name=".ui.home.PetView"
+            android:exported="false" />
+        <activity
+            android:name=".ui.home.ListView"
+            android:exported="false" />
+        <activity
+            android:name=".ui.home.PetListActivity"
+            android:windowSoftInputMode="adjustNothing"
+            android:exported="false" />
+        <activity
+            android:name=".CaregiverBottomNavigationActivity"
+            android:exported="false"
+            android:label="@string/title_activity_caregiver_bottom_navigation" />
+        <activity
+            android:name=".CaregiverSignupActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PetOwnerSignupActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".PetOwnerSignupActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PetOwnerBottomNavigationActivity"
+            android:exported="false"
+            android:label="@string/title_activity_pet_owner_dashboard" />
+        <activity
+            android:name=".PetOwnerLoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CaregiverLoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

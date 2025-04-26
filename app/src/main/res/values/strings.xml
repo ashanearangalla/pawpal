@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">PawPal</string>
+    <string name="title_activity_pet_owner_dashboard">PetOwnerDashboardActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_pet_info">Pet Details</string>
+    <string name="title_accounts">Account</string>
+    <string name="title_activity_caregiver_dashboard">CaregiverDashboardActivity</string>
+    <string name="title_activity_caregiver_bottom_navigation">CaregiverBottomNavigationActivity
+    </string>
+</resources>

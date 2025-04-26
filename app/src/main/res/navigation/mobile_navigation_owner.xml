@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation_owner"
+    app:startDestination="@+id/navigation_home_owner">
+
+    <fragment
+        android:id="@+id/navigation_home_owner"
+        android:name="com.example.petcare.ui.home.HomeFragmentOwner"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home_owner" />
+
+    <fragment
+        android:id="@+id/navigation_pet_info_pet_owner"
+        android:name="com.example.petcare.ui.dashboard.PetFragmentOwner"
+        android:label="@string/title_pet_info"
+        tools:layout="@layout/fragment_pet_info_owner" />
+
+    <fragment
+        android:id="@+id/navigation_accounts_owner"
+        android:name="com.example.petcare.ui.accounts.AccountsFragmentOwner"
+        android:label="@string/title_accounts"
+
+        tools:layout="@layout/fragment_accounts_owner" />
+</navigation>
